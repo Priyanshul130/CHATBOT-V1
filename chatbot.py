@@ -5,9 +5,8 @@ from tkinter import *
 
 window= Tk()
 window.title("Chatbot")
-bubbles = [] #empty list to store all instances of chat bubble (message)
+bubbles = []
 
-#creating canvas for adding controls
 canvas = Canvas(window, width=350, height=500,bg="sky blue")
 canvas.grid(row=0,column=0,columnspan=3)
 
